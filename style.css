@@ -1,0 +1,85 @@
+/* Inizio del file css  */
+
+/* Impostazione background img */
+
+body {
+  background-image: url("../Materiale/background.jpg");
+  background-size: 100%;
+}
+
+/* Dimensionamento contenitore trasparente*/
+
+#Contenitore {
+  width: 1200px;
+  height: 800px;
+  background-color: rgba(0,0,0,0.5);
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 70px;
+  border-radius: 20px;
+}
+
+/* Dimensionamento img header e titolo */
+
+header > img{
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header > h1{
+  color: #39FF14;
+  text-align: center;
+}
+
+/* Menù di navigazione */
+
+.Navigazione{
+  background-color: #39FF14;
+  width: 1000px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  margin: auto;
+}
+
+main {
+  padding-left: 100px;
+}
+
+/* Batteriagino con impostazione colore scritta */
+
+.Batteriagino {
+  width: 300px;
+  height: 25px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+/* Batteriamike con impostazione colore Hex */
+
+.Batteriamike {
+  width: 500px;
+  height: 25px;
+  background-color: #39FF14;
+  border-radius: 5px;
+}
+
+/* Batteriafede con impostazione colore rgb */
+
+.Batteriafede {
+  width: 150px;
+  height: 25px;
+  background-color: rgb(170,0,0);
+  border-radius: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+section > p {
+  color: white;
+}
